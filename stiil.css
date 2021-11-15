@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Praise&display=swap");
+.column {
+  float: left;
+  width: 50%;
+  
+}
+img{
+    width: 95%;
+
+}
+body{
+    background-image: url("https://image.freepik.com/free-photo/white-paper-texture_1194-2324.jpg");
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5pt;
+}
+
+.kaunis-font{
+  font-family: "Praise", cursive;
+  font-size: 35pt;
+}
+
+.tühi{
+    color: transparent;
+}
+
+
+
+button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15pt;
+  border-color:transparent;
+  background-color:transparent;
+  text-decoration: none;
+  border-style: solid;
+  text-transform: uppercase;
+}
+
+.tekst{
+    font-family: "Praise";
+    font-size: 150%;
+    text-align: center;
+}
+
+a:link {
+    color: black;
+  text-decoration: none;
+}
+
+a:visited {
+    color: black;
+  text-decoration: none;
+}
+
+a:hover {
+    color: black;
+  text-decoration: none;
+}
+
+a:active {
+    color: black;
+  text-decoration: none;
+}
+
+.väikesed-nupud > button {
+  padding: 0;
+  border-radius: 50%;
+  border-width: 1pt;
+  border-color:violet;
+  width: 15%;
+}
+.väikesed-nupud{
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 5px;
+}
+
+.tabel{
+    width: 80%;
+    text-align: left;
+}
+
+.tabel th,td{
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    padding:5px;
+    border:1px solid violet; 
+}
+.tabel th{
+    background-color: violet;
+    text-transform: uppercase;
+}
