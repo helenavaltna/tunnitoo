@@ -2,4 +2,4 @@ tere
 see
 on
  see 
-asjandus
+asjandus/asi
